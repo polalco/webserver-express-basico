@@ -1,0 +1,19 @@
+{
+    "name": "clase7-webserver",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node server.js",
+        "nodemon": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.0",
+        "express": "^4.17.1",
+        "hbs": "^4.0.4",
+        "yargs": "^13.2.4"
+    }
+}
